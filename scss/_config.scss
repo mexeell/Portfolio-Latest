@@ -1,0 +1,16 @@
+// Varibles
+$website-width: 1280px;
+$main-color: #F7B52B;
+$light-color: #c0bdbd;
+$medium-color: #ccc;
+$dark-color: #333;
+$bg-imagine: url("../img/nasa-Q1p7bh3SHj8-unsplash.jpg");
+
+// Set text color
+@function set-text-color($color) {
+  @if (lightness($color) >50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}

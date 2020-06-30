@@ -1,0 +1,7 @@
+button[class^="btn-"]:hover,
+a[class^="btn-"]:hover,
+input[class^="btn-"]:hover {
+  background-color: $main-color;
+  transform: scale(1.2);
+  padding-bottom: 0.5rem;
+}
