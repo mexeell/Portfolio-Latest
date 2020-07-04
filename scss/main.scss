@@ -50,6 +50,9 @@ img {
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
+  
+  
+
 
   h2 {
     font-family: "Notable", sans-serif;
@@ -79,6 +82,7 @@ img {
 
   ul {
     display: flex;
+    
   }
 
   li {
@@ -87,13 +91,14 @@ img {
 
   a {
     text-decoration: none;
-    color: #fff;
+    color: white;
     text-transform: uppercase;
     border-bottom: 2px transparent solid;
     border-top: 2px transparent solid;
     border-radius: 30%;
     padding: 0.5rem;
     transition: border-color 0.4s;
+    font-weight: 300;
 
     &:hover {
       border-color: $medium-color;
@@ -110,7 +115,7 @@ img {
 #header {
   // header home
   &-home {
-    background: $bg-imagine no-repeat center right/cover;
+    background: $bg-imagine no-repeat center/cover ;
     height: 100vh;
     color: #fff;
 
@@ -274,6 +279,11 @@ img {
       border: 1px solid $main-color;
       padding: 0.8rem;
       border-radius: 20px;
+
+      p {
+        line-height: 3rem;
+        font-size: 1.1rem;
+      }
     }    
   }
   // About B

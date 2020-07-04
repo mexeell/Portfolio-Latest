@@ -223,20 +223,21 @@ img {
     padding: 1rem 1.5rem; }
   #main-nav a {
     text-decoration: none;
-    color: #fff;
+    color: white;
     text-transform: uppercase;
     border-bottom: 2px transparent solid;
     border-top: 2px transparent solid;
     border-radius: 30%;
     padding: 0.5rem;
-    transition: border-color 0.4s; }
+    transition: border-color 0.4s;
+    font-weight: 300; }
     #main-nav a:hover {
       border-color: #ccc; }
     #main-nav a.current {
       border-color: #F7B52B; }
 
 #header-home {
-  background: url("../img/nasa-Q1p7bh3SHj8-unsplash.jpg") no-repeat center right/cover;
+  background: url("../img/P9300047.jpg") no-repeat center/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -250,7 +251,7 @@ img {
       text-shadow: 1px 5px 7px #c0bdbd; }
 
 #header-inner {
-  background: url("../img/nasa-Q1p7bh3SHj8-unsplash.jpg") no-repeat 0% 0%/cover;
+  background: url("../img/P9300047.jpg") no-repeat 0% 0%/cover;
   height: 5.5rem;
   border-bottom: #F7B52B 3px solid;
   position: sticky;
@@ -341,6 +342,9 @@ img {
   border: 1px solid #F7B52B;
   padding: 0.8rem;
   border-radius: 20px; }
+  #about-a .bio p {
+    line-height: 3rem;
+    font-size: 1.1rem; }
 
 #about-b .progress {
   overflow: hidden;
